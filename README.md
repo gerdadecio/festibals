@@ -1,7 +1,8 @@
 # Festibals
 
-TODO: Write a gem description
+A ruby gem that easily integrates a schedule of philippine festivals to your calendar.
 
+A sample ics file [here](www.gerdadecio.com/page/philippine_festivals.ics)
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+calendar = Festibals::FestibalCalendar.new.calendar
+calendar.to_ical
 
 ## Contributing
 
