@@ -1,0 +1,7 @@
+name:
+  summary: "Feast of the Black Nazarene"
+  recurrence_rule: "FREQ=YEARLY;BYMONTHDAY=9;BYMONTH=1" 
+  start_month: 1
+  start_day: 9
+  start_year: 2014
+  description: 'Quiapo Manila'

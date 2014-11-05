@@ -11,6 +11,7 @@ module Festibals
       event = Icalendar::Event.new   
       event.dtstart = Date.new(start_year, start_month, start_day) || DateTime.now
       event.summary = Icalendar::Values::Text.new summary || "An Awesome Festival", SUMMARY_PARAMS
+      event.description = description
       event.categories = "Holidays"
       event = set_alarm(event)
 
@@ -29,6 +30,7 @@ module Festibals
       end
       return event
     end
+
 
   end
 end
