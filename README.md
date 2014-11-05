@@ -19,8 +19,9 @@ Or install it yourself as:
 
 ## Usage
 
-calendar = Festibals::FestibalCalendar.new.calendar
-calendar.to_ical
+    calendar = Festibals::FestibalCalendar.new.calendar
+    
+    calendar.to_ical
 
 ## Contributing
 
